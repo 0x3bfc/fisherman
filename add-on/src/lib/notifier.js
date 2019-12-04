@@ -14,7 +14,7 @@ function createNotifier (getState) {
     if (getState().displayNotifications && browser && browser.notifications.create) {
       browser.notifications.create({
         type: 'basic',
-        iconUrl: browser.extension.getURL('icons/ipfs-logo-on.svg'),
+        iconUrl: browser.extension.getURL('icons/ocean-logo-on.svg'),
         title: title,
         message: message
       }).catch(err => console.warn(`[ipfs-companion] Browser notification failed: ${err.message}`))

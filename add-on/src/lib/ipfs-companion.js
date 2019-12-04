@@ -349,10 +349,10 @@ module.exports = async function init () {
     // https://github.com/ipfs-shipyard/ipfs-companion/issues/398
     if (runtime.isFirefox && ipfsPathValidator.isIpfsPageActionsContext(url)) {
       if (url.startsWith(state.gwURLString) || url.startsWith(state.apiURLString)) {
-        await browser.pageAction.setIcon({ tabId: tabId, path: '/icons/ipfs-logo-on.svg' })
+        await browser.pageAction.setIcon({ tabId: tabId, path: '/icons/ocean-logo-on.svg' })
         await browser.pageAction.setTitle({ tabId: tabId, title: browser.i18n.getMessage('pageAction_titleIpfsAtCustomGateway') })
       } else {
-        await browser.pageAction.setIcon({ tabId: tabId, path: '/icons/ipfs-logo-off.svg' })
+        await browser.pageAction.setIcon({ tabId: tabId, path: '/icons/ocean-logo-off.svg' })
         await browser.pageAction.setTitle({ tabId: tabId, title: browser.i18n.getMessage('pageAction_titleIpfsAtPublicGateway') })
       }
       await browser.pageAction.show(tabId)
@@ -476,11 +476,11 @@ module.exports = async function init () {
     if (state.peerCount > 0) {
       // All is good (online with peers)
       badgeColor = '#418B8E'
-      badgeIcon = '/icons/ipfs-logo-on.svg'
+      badgeIcon = '/icons/ocean-logo-on.svg'
     } else if (state.peerCount === 0) {
       // API is online but no peers
       badgeColor = 'red'
-      badgeIcon = '/icons/ipfs-logo-on.svg'
+      badgeIcon = '/icons/ocean-logo-on.svg'
     } else {
       // API is offline
       badgeText = ''
