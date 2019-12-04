@@ -1,11 +1,10 @@
 {
-  "name": "ipfs-companion",
-  "homepage": "https://github.com/ipfs-shipyard/ipfs-companion",
+  "name": "fisherman",
+  "homepage": "https://github.com/0x3bfc/fisherman",
   "license": "CC0-1.0",
-  "leadMaintainer": "Marcin Rataj <lidel@lidel.org>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ipfs-shipyard/ipfs-companion.git"
+    "url": "https://github.com/0x3bfc/fisherman.git"
   },
   "scripts": {
     "start": "run-s clean build test firefox",

@@ -1,11 +1,11 @@
 {
   "browserAction_title": {
-    "message": "IPFS Companion",
+    "message": "Fisherman",
     "description": "A pop-up title when user hovers on Browser Action button (browserAction_title)"
   },
   "panel_headerIpfsNodeIconLabel": {
-    "message": "IPFS Companion",
-    "description": "A label for IPFS icon (panel_headerIpfsNodeIconLabel)"
+    "message": "Fisherman",
+    "description": "A label for Fisherman icon (panel_headerIpfsNodeIconLabel)"
   },
   "panel_headerActiveToggleTitle": {
     "message": "Přepnout všechny integrace IPFS",
@@ -436,11 +436,11 @@
     "description": "An option description on the Preferences screen (option_resetAllOptions_description)"
   },
   "manifest_extensionName": {
-    "message": "IPFS Companion",
+    "message": "Fisherman",
     "description": "Extension name in the Manifest file (manifest_extensionName)"
   },
   "manifest_shortExtensionName": {
-    "message": "IPFS Companion",
+    "message": "Fisherman",
     "description": "Short extension name in the Manifest file (manifest_shortExtensionName)"
   },
   "manifest_extensionDescription": {
@@ -524,7 +524,7 @@
     "description": "Button title for revoking a permission (page_proxyAcl_revoke_button_title)"
   },
   "page_proxyAccessDialog_title": {
-    "message": "Měl by IPFS Companion povolit «$1» přístup «$2» v připojeném uzlu?",
+    "message": "Měl by Fisherman povolit «$1» přístup «$2» v připojeném uzlu?",
     "description": "Main title of the access permission dialog (page_proxyAccessDialog_title)"
   },
   "page_proxyAccessDialog_wildcardCheckbox_label": {
@@ -544,11 +544,11 @@
     "description": "Button text for denying a permission (page_proxyAccessDialog_allowButton_text)"
   },
   "page_landingWelcome_title": {
-    "message": "IPFS Companion - Vítejte!",
+    "message": "Fisherman - Vítejte!",
     "description": "Page title (page_landingWelcome_title)"
   },
   "page_landingWelcome_logo_title": {
-    "message": "IPFS Companion",
+    "message": "Fisherman",
     "description": "Extension name after the IPFS logo (page_landingWelcome_logo_title)"
   },
   "page_landingWelcome_welcome_title": {
@@ -560,7 +560,7 @@
     "description": "Ready message copy (page_landingWelcome_welcome_peers)"
   },
   "page_landingWelcome_welcome_discover": {
-    "message": "Vyzkoušejte co <0>můžete dělat s IPFS Companion</0> a ponořte se do distribuovaného webu s IPFS!",
+    "message": "Vyzkoušejte co <0>můžete dělat s Fisherman</0> a ponořte se do distribuovaného webu s IPFS!",
     "description": "Ready message copy (page_landingWelcome_welcome_discover)"
   },
   "page_landingWelcome_installSteps_notRunning_title": {
